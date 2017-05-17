@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadButton">
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="stroke_color" format="color|reference" />
+        <attr name="content_color" format="color|reference" />
+        <attr name="radiu" format="dimension|reference" />
+        <attr name="rectwidth" format="dimension|reference" />
+        <attr name="contentPaddingLR" format="dimension|reference" />
+        <attr name="contentPaddingTB" format="dimension|reference" />
+        <attr name="progressedWidth" format="dimension|reference" />
+        <attr name="backColor" format="color|reference" />
+        <attr name="progressColor" format="color|reference" />
+        <attr name="progressSecondColor" format="color|reference" />
+        <attr name="loadSuccessDrawable" format="reference" />
+        <attr name="loadErrorDrawable" format="reference" />
+        <attr name="loadPauseDrawable" format="reference" />
+    </declare-styleable>
+</resources>
